@@ -34,17 +34,44 @@
 <br>
 
 ## 🛠️기술 스택
-|분야|사용기술|
-|---|--|
-|언어|![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)|
-|데이터분석|![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white) ![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)|
-|시각화|![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)![Seaborn](https://img.shields.io/badge/Seaborn-43B6C7?style=for-the-badge&logo=seaborn&logoColor=white)![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-|모델|![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?style=for-the-badge&logoColor=white)![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-1E90FF?style=for-the-badge&logoColor=white)![SVM](https://img.shields.io/badge/SVM-800080?style=for-the-badge&logoColor=white)![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge&logoColor=white)![Gradient Boosting](https://img.shields.io/badge/Gradient%20Boosting-F5B041?style=for-the-badge&logoColor=white)![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)|
+|    분야    |사용기술|
+|:------:|:------:|
+|    언어   |![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)|
+|데이터분석   |![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white) ![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)|
+|시각화   |![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)![Seaborn](https://img.shields.io/badge/Seaborn-43B6C7?style=for-the-badge&logo=seaborn&logoColor=white)![SHAP](https://img.shields.io/badge/SHAP-5A20CB?style=for-the-badge&logoColor=white)
+|    모델 설계    |![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?style=for-the-badge&logoColor=white)![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-1E90FF?style=for-the-badge&logoColor=white)![SVM](https://img.shields.io/badge/SVM-800080?style=for-the-badge&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge&logoColor=white)![Gradient Boosting](https://img.shields.io/badge/Gradient%20Boosting-F5B041?style=for-the-badge&logoColor=white)![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)|
+|화면구현    |![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)|
 
 <br> 
 
 ## 데이터셋 소개
-### EDA
+IBM이 제공하는 통신사 고객 이탈 데이터셋을 사용  
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+- 데이터 수 : 7043명
+  - 컬럼
+    -  `customerID`: 고객의 성별 (남성/여성)
+    -  `gender`: 고객의 성별 (남성/여성)
+    -  `SeniorCitizen`: 고령자 여부 (1 = 예, 0 = 아니오)
+    -  `Partner`: 배우자 유무 (예/아니오)
+    -  `Dependents`: 부양 가족 유무 (예/아니오)
+    -  `tenure`: 고객이 회사에 가입한 개월 수
+    -  `PhoneService`: 전화 서비스 이용 여부 (예/아니오)
+    -  `MultipleLines`: 다중 회선 이용 여부 (예/아니오/전화 서비스 없음)
+    -  `InternetService`: 인터넷 서비스 종류 (DSL/광섬유/인터넷 서비스 없음)
+    -  `OnlineSecurity`: 온라인 보안 서비스 이용 여부 (예/아니오)
+    -  `OnlineBackup`: 온라인 백업 서비스 이용 여부 (예/아니오)
+    -  `DeviceProtection`: 기기 보호 서비스 이용 여부 (예/아니오)
+    -  `TechSupport`: 기술 지원 서비스 이용 여부 (예/아니오)
+    -  `StreamingTV`: 스트리밍 TV 이용 여부 (예/아니오)
+    -  `StreamingMovies`: 영화 스트리밍 서비스 이용 여부 (예/아니오)
+    -  `Contract`: 계약 유형 (월별 계약/1년 계약/2년 계약)
+    -  `PaperlessBilling`: 종이사용안한 청구서 사용 여부 (예/아니오)
+    -  `PaymentMethod`: 결제 방식 (전자 수표/우편 수표/계좌 이체/신용카드)
+    -  `MonthlyCharges`: 월별 서비스 요금
+    -  `TotalCharges`: 고객이 누적하여 지불한 총 요금
+  - target 컬럼
+     - `Churn`: 고객 이탈 여부 (예/아니오)
+### 📊EDA
 - 
 ## 데이터 전처리 방법
 -
