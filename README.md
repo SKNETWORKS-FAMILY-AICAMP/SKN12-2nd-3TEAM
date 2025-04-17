@@ -11,16 +11,37 @@
 ## 📅 개발 기간  
 ### 2025.04.17 ~ 2025.04.18
 ## 프로젝트 필요성
-- 아
-## 프로잭트 목표
-- 아
+### 📌 고객 유지 비용 보다 큰 신규 고객 유치 비용
+- #### 신규 고객 확보 비용은 광고, 프로모션, 제휴 마케팅 등 많은 비용이 드는 반면, 기존 고객을 유지하는 비용은 훨씬 낮음
+- #### 이탈 가능성이 높은 고객을 사전에 파악하고 선제 대응하는 것이 훨씬 효율적임
+
+### 📌 맞춤형 리텐션 마케팅 가능성 확보
+- #### 이탈 가능성이 높은 고객군을 타겟팅하여 개인화된 리텐션 마케팅을 가능하게 함
+- #### 고객 만족도 상승과 브랜드 충성도 증가로 이어짐
+
+### 📌 고객 생애가치(LTV, Lifetime Value) 극대화
+- #### 장기 고객일수록 ARPU(가입자 평균 매출)도 높고, 부가서비스 사용률도 높음
+- #### 고객 이탈을 줄이면 고객 생애 가치가 증가하고, 이는 곧 장기 수익 증가로 이어짐
+
+
+### 📌 정체된 시장에서의 경쟁력 확보
+- #### 이미 포화 상태인 통신 시장에서 시장 점유율을 지키기 위해 기존 고객의 이탈을 줄이는 것이 가장 적절함
+<br>
+
+## 프로젝트 목표
+### 통신사 이탈 고위험성 고객 사전 식별, 높은 고객 유지율, 시장 경쟁력 극대화를 위한 고객 이탈 예측 모델 개발 및 시각화
 
 <br>
 
 ## 기술 스택
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white)
+![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-43B6C7?style=for-the-badge&logo=seaborn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Xgboost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
+
 
 ## 데이터셋 소개
 ### EDA
