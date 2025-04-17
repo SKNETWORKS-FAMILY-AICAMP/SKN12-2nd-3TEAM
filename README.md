@@ -65,14 +65,34 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
     -  `StreamingTV`: 스트리밍 TV 이용 여부 (예/아니오)
     -  `StreamingMovies`: 영화 스트리밍 서비스 이용 여부 (예/아니오)
     -  `Contract`: 계약 유형 (월별 계약/1년 계약/2년 계약)
-    -  `PaperlessBilling`: 종이사용안한 청구서 사용 여부 (예/아니오)
+    -  `PaperlessBilling`: 종이사용없는 청구서 여부 (예/아니오)
     -  `PaymentMethod`: 결제 방식 (전자 수표/우편 수표/계좌 이체/신용카드)
     -  `MonthlyCharges`: 월별 서비스 요금
     -  `TotalCharges`: 고객이 누적하여 지불한 총 요금
   - target 컬럼
      - `Churn`: 고객 이탈 여부 (예/아니오)
 ### 📊EDA
-- 
+#### 1. 고객 이탈 여부  
+![newplot](https://github.com/user-attachments/assets/d4f8a461-5fbf-45e6-b9f0-a8f5c3ac3ca3)
+#### 2. 성별에 따른 이탈 여부  
+![newplot (5)](https://github.com/user-attachments/assets/ef7ceb86-e563-489f-9de6-71cc7c19046a)
+#### 3. 고령자 이탈 여부  
+![newplot (6)](https://github.com/user-attachments/assets/1642eabd-39b8-48e2-96bc-6511f3bcc869)
+#### 4. 이용기간 별 이탈 여부  
+![newplot (4)](https://github.com/user-attachments/assets/5bb420b7-e7d5-40e5-ad86-b3b7dc020961)
+#### 5. 월별 요금 별 이탈 여부  
+![newplot (8)](https://github.com/user-attachments/assets/be2f2c78-cf68-41ce-b2ec-fa634cb2a88b)
+#### 6. 결제 방법 별 이탈 여부  
+![newplot (2)](https://github.com/user-attachments/assets/e800c8f3-ef5f-4759-af6a-65bcf2691614)
+#### 7. 인터넷 서비스 별 이탈 여부  
+![newplot (3)](https://github.com/user-attachments/assets/cf116353-4996-4752-bb88-51d800ffa906)
+#### 8. 계약 형태 별 이탈 여부  
+![newplot (1)](https://github.com/user-attachments/assets/56c1a163-5664-4bfb-9697-377e6ccdaab9)
+#### 9. 지불 방법 별 이탈 여부  
+![newplot (10)](https://github.com/user-attachments/assets/a3df36e8-34d7-48b0-929d-ecf3d415cff7)
+#### 10. 부가 서비스 별 이탈 여부  
+![newplot (12)](https://github.com/user-attachments/assets/c12a0cb0-7a2c-4a73-a49b-b2063ba12af6)
+
 ## 데이터 전처리 방법
 -
 ## 모델
