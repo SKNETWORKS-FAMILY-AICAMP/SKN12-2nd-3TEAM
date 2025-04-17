@@ -28,19 +28,18 @@
 -  이미 포화 상태인 통신 시장에서 시장 점유율을 지키기 위해 기존 고객의 이탈을 줄이는 것이 가장 적절함
 <br>
 
-## 프로젝트 목표
+## 🎯프로젝트 목표
 ### 통신사 이탈 고위험성 고객 사전 식별, 높은 고객 유지율, 시장 경쟁력 극대화를 위한 고객 이탈 예측 모델 개발 및 시각화
 
 <br>
 
-## 기술 스택
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white)
-![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-43B6C7?style=for-the-badge&logo=seaborn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Xgboost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
+## 🛠️기술 스택
+|분야|사용기술|
+|---|--|
+|언어|![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)|
+|데이터분석|![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white) ![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)|
+|시각화|![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)![Seaborn](https://img.shields.io/badge/Seaborn-43B6C7?style=for-the-badge&logo=seaborn&logoColor=white)![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+|모델|![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?style=for-the-badge&logoColor=white)![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-1E90FF?style=for-the-badge&logoColor=white)![SVM](https://img.shields.io/badge/SVM-800080?style=for-the-badge&logoColor=white)![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge&logoColor=white)![Gradient Boosting](https://img.shields.io/badge/Gradient%20Boosting-F5B041?style=for-the-badge&logoColor=white)![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)|
 
 
 ## 데이터셋 소개
