@@ -72,35 +72,53 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
   - target 컬럼
      - `Churn`: 고객 이탈 여부 (예/아니오)
 ### 📊EDA
-#### 1. 고객 이탈 여부  
-![newplot](https://github.com/user-attachments/assets/d4f8a461-5fbf-45e6-b9f0-a8f5c3ac3ca3)
-#### 2. 성별에 따른 이탈 여부  
-![newplot (5)](https://github.com/user-attachments/assets/ef7ceb86-e563-489f-9de6-71cc7c19046a)
-#### 3. 고령자 이탈 여부  
-![newplot (6)](https://github.com/user-attachments/assets/1642eabd-39b8-48e2-96bc-6511f3bcc869)
-#### 4. 이용기간 별 이탈 여부  
-![newplot (4)](https://github.com/user-attachments/assets/5bb420b7-e7d5-40e5-ad86-b3b7dc020961)
-#### 5. 월별 요금 별 이탈 여부  
-![newplot (8)](https://github.com/user-attachments/assets/be2f2c78-cf68-41ce-b2ec-fa634cb2a88b)
-#### 6. 결제 방법 별 이탈 여부  
-![newplot (2)](https://github.com/user-attachments/assets/e800c8f3-ef5f-4759-af6a-65bcf2691614)
-#### 7. 인터넷 서비스 별 이탈 여부  
-![newplot (3)](https://github.com/user-attachments/assets/cf116353-4996-4752-bb88-51d800ffa906)
-#### 8. 계약 형태 별 이탈 여부  
-![newplot (1)](https://github.com/user-attachments/assets/56c1a163-5664-4bfb-9697-377e6ccdaab9)
-#### 9. 지불 방법 별 이탈 여부  
-![newplot (10)](https://github.com/user-attachments/assets/a3df36e8-34d7-48b0-929d-ecf3d415cff7)
-#### 10. 부가 서비스 별 이탈 여부  
-![newplot (12)](https://github.com/user-attachments/assets/c12a0cb0-7a2c-4a73-a49b-b2063ba12af6)
+#### 1. 고객 이탈 여부     
+<img src="https://github.com/user-attachments/assets/d4f8a461-5fbf-45e6-b9f0-a8f5c3ac3ca3" width="850">  
+
+#### 2. 성별에 따른 이탈 여부     
+<img src="https://github.com/user-attachments/assets/ef7ceb86-e563-489f-9de6-71cc7c19046a" width="850" height="450">  
+
+#### 3. 고령자 이탈 여부     
+<img src="https://github.com/user-attachments/assets/1642eabd-39b8-48e2-96bc-6511f3bcc869" width="850" height="450">  
+
+#### 4. 이용기간 별 이탈 여부     
+<img src="https://github.com/user-attachments/assets/5bb420b7-e7d5-40e5-ad86-b3b7dc020961" width="850">  
+
+#### 5. 월별 요금 별 이탈 여부    
+<img src="https://github.com/user-attachments/assets/be2f2c78-cf68-41ce-b2ec-fa634cb2a88b" width="850">  
+
+#### 6. 결제 방법 별 이탈 여부    
+<img src="https://github.com/user-attachments/assets/e800c8f3-ef5f-4759-af6a-65bcf2691614" width="850" height="450">  
+
+#### 7. 인터넷 서비스 별 이탈 여부    
+<img src="https://github.com/user-attachments/assets/cf116353-4996-4752-bb88-51d800ffa906" width="850" height="450">  
+
+#### 8. 계약 형태 별 이탈 여부    
+<img src="https://github.com/user-attachments/assets/56c1a163-5664-4bfb-9697-377e6ccdaab9" width="850">  
+
+#### 9. 지불 방법 별 이탈 여부     
+<img src="https://github.com/user-attachments/assets/a3df36e8-34d7-48b0-929d-ecf3d415cff7" width="850">  
+
+#### 10. 부가 서비스 별 이탈 여부    
+<img src="https://github.com/user-attachments/assets/c12a0cb0-7a2c-4a73-a49b-b2063ba12af6" width="850" height="350">  
+
 
 ## 데이터 전처리 방법
--
+### 1. 결측치 및 중복값 제거
+- #### 데이터에 결측치 및 중복값 없음 확인
+### 2. 사용하지 않는 feature 제거 (`Customer_ID`)
+### 3. `Churn`의 컬럼 값 1 / 0으로 변환
+### 4. `TotalCharges` 컬럼에서 `NaN` 값 제거 및 데이터 타입 변환(float)
+
+
 ## 모델
--
+- MoonyungStacking
 ## 평가 및 결과
 -
 ## 결론
--
+- 최종 결론
+- 한계점
+- 보안 방안
 ## 기대효과
 - 
 ### 💭 한줄 회고
