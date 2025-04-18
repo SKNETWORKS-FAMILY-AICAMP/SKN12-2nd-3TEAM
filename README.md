@@ -50,6 +50,7 @@ IBM이 제공하는 통신사 고객 이탈 데이터셋을 사용
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 - 데이터 수 : 7043명
 - 사용 변수
+- 
 |변수명 (column name)|변수 설명 (description)|변수 유형 (data type)|
 |---|---|---|
 | `customerID` | 고객 고유 ID |📝 문자열 (String)|
