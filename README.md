@@ -53,27 +53,30 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
   
 |변수명 (column name)|변수 설명 (description)|변수 유형 (data type)|
 |---|---|---|
-| `customerID` | 고객의 고유 ID입니다. |📝 문자열 (String)|
-| `gender` | 고객의 성별을 나타냅니다 (남성/여성). |📝 문자열 (String)|
-| `SeniorCitizen` | 고객이 고령자인지를 나타냅니다 (1 = 예, 0 = 아니오). |🔢 정수형 (Integer)|
-| `Partner` | 고객에게 배우자가 있는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `Dependents` | 고객에게 부양 가족이 있는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `tenure` | 고객이 회사에 가입한 개월 수를 나타냅니다. |🔢 정수형 (Integer)|
-| `PhoneService` | 고객이 전화 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `MultipleLines` | 고객이 다중 회선을 이용하는지를 나타냅니다 (예/아니오/전화 서비스 없음). |📝 문자열 (String)|
-| `InternetService` | 고객이 이용 중인 인터넷 서비스의 종류를 나타냅니다 (DSL/광섬유/인터넷 서비스 없음). |📝 문자열 (String)|
-| `OnlineSecurity` | 고객이 온라인 보안 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `OnlineBackup` | 고객이 온라인 백업 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `DeviceProtection` | 고객이 기기 보호 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `TechSupport` | 고객이 기술 지원 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `StreamingTV` | 고객이 스트리밍 TV 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `StreamingMovies` | 고객이 영화 스트리밍 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `Contract` | 고객의 계약 유형을 나타냅니다 (월별 계약/1년 계약/2년 계약). |📝 문자열 (String)|
-| `PaperlessBilling` | 고객이 종이 없는 청구서를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
-| `PaymentMethod` | 고객의 결제 방식을 나타냅니다 (전자 수표/우편 수표/계좌 이체/신용카드). |📝 문자열 (String)|
-| `MonthlyCharges` | 고객의 월별 서비스 요금을 나타냅니다. |🔢 실수형 (Float)|
-| `TotalCharges` | 고객이 지금까지 누적하여 지불한 총 요금을 나타냅니다. |📝 문자열 (String)|
-| `Churn`| 고객 이탈 여부 (예/아니오)|📝 문자열 (String)|
+|변수명 (column name)|변수 설명 (description)|변수 유형 (data type)|
+|---|---|---|
+| `customerID` | 고객 고유 ID |📝 문자열 (String)|
+| `gender` | 고객 성별 (남성/여성) |📝 문자열 (String)|
+| `SeniorCitizen` | 고령자 여부 (1 = 예, 0 = 아니오) |🔢 정수형 (Integer)|
+| `Partner` | 배우자 유무 (예/아니오) |📝 문자열 (String)|
+| `Dependents` | 부양 가족 유무 (예/아니오) |📝 문자열 (String)|
+| `tenure` | 회사 가입 개월 수 |🔢 정수형 (Integer)|
+| `PhoneService` | 전화 서비스 이용 여부 (예/아니오) |📝 문자열 (String)|
+| `MultipleLines` | 다중 회선 이용 여부 (예/아니오/전화 서비스 없음) |📝 문자열 (String)|
+| `InternetService` | 인터넷 서비스 종류 (DSL/광섬유/인터넷 서비스 없음) |📝 문자열 (String)|
+| `OnlineSecurity` | 온라인 보안 서비스 이용 여부 (예/아니오) |📝 문자열 (String)|
+| `OnlineBackup` | 온라인 백업 서비스 이용 여부 (예/아니오) |📝 문자열 (String)|
+| `DeviceProtection` | 기기 보호 서비스 이용 여부 (예/아니오) |📝 문자열 (String)|
+| `TechSupport` | 기술 지원 서비스 이용 여부 (예/아니오) |📝 문자열 (String)|
+| `StreamingTV` | 스트리밍 TV 이용 여부 (예/아니오) |📝 문자열 (String)|
+| `StreamingMovies` | 영화 스트리밍 서비스 이용 여부 (예/아니오) |📝 문자열 (String)|
+| `Contract` | 계약 유형 (월별 계약/1년 계약/2년 계약) |📝 문자열 (String)|
+| `PaperlessBilling` | 종이 없는 청구서 여부 (예/아니오) |📝 문자열 (String)|
+| `PaymentMethod` | 결제 방식 (전자 수표/우편 수표/계좌 이체/신용카드) |📝 문자열 (String)|
+| `MonthlyCharges` | 월별 서비스 요금 |🔢 실수형 (Float)|
+| `TotalCharges` | 누적 총 지불 요금 |📝 문자열 (String)|
+| `Churn` | 이탈여부 (예/아니오)| 📝 문자열 (String)|
+
 ------------------------------------------------------------------------------------------------------------    
 ## 📊EDA
 ### 고객 이탈 여부     
