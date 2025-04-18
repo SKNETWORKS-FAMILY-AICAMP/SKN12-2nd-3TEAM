@@ -1,7 +1,7 @@
 # :telephone: 통신사 고객 이탈 예측 프로젝트
 
 ## :busts_in_silhouette: 팀원 소개
-### - 팀명: 아이돌이 될 뻔한 무한상사
+### - 팀명: 독산상사
 |<img src="https://github.com/user-attachments/assets/1852fb34-740b-425f-ac4d-43ef3f31cd1b" width="250"  height="180"/>|<img src="https://github.com/user-attachments/assets/d4ba50e8-38e1-45c4-80b9-a029ee882eba" width="250"  height="180"/>|<img src="https://github.com/user-attachments/assets/d03aad58-532c-4bcc-bc4d-4710d73ee484" width="250" height="180"/>|<img src="https://github.com/user-attachments/assets/200b29be-f529-4746-8c07-fc0031a275bb" width="250" height="180"/>| 
 |:--------:|:--------:|:--------:|:--------:|
 | 이지복 <br> [@Bokfortune](https://github.com/Bokfortune)  | 노명구 <br>[@nmmm9](https://github.com/nmmm9)| 최문영 <br> [@myoung112](https://github.com/myoung112) | 박진양 <br> [@ParkJinyang-hello](https://github.com/ParkJinyang-hello) |
@@ -293,7 +293,7 @@ SMOTE를 통해 소수 클래스(이탈 고객)를 보완했지만, 인위적으
 - 이지복 : 
 - 노명구 : 
 - 최문영 : 
-- 박진양 :
+- 박진양 : 많이 부족한 실력이었기에 프로젝트를 하는데 어려움이 있었지만 저희 3조 부원님들 덕분에 무사히 마칠 수 있었습니다. 데이터셋을 고르는 것부터 전처리, 모델 설정, 그 이외에 추가적으로 성능을 올리기 위해 실행한 작업들이 저의 개발 실력을 조금이라도 증진시켜준거 같아 좋은 경험이었습니다.
 
 
 
