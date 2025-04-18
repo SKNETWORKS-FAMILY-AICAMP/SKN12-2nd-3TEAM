@@ -203,7 +203,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
      - final_estimator=lr
      - passthrough=True
 
-## 모델 평가 및 결과
+## 📊 모델 평가 및 결과
 - 모델별 Accuracy, Recall, Precision, f1-score 비교
 ![image](https://github.com/user-attachments/assets/9643fca8-7916-4b7a-a183-0c41450be2ad)
 - ROC-Curve
