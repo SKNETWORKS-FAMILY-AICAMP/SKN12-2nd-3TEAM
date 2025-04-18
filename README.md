@@ -205,11 +205,17 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ## 📊 모델 평가 및 결과
 - 모델별 Accuracy, Recall, Precision, f1-score 비교
+  
 ![image](https://github.com/user-attachments/assets/9643fca8-7916-4b7a-a183-0c41450be2ad)
+
 - ROC-Curve
+  
 ![newplot (2)](https://github.com/user-attachments/assets/beae7185-77de-4c8a-9791-3e6d1077bd53)
+
 - 모델 종합 비교
+  
 ![newplot (1)](https://github.com/user-attachments/assets/9706f6ee-4ae7-46a6-987f-991368530622)
+
 
 ### 성능 결과 분석  
 MoonyungStacking 모델이 정확도 0.914, F1 score 0.843로 가장 높은 성능을 보임  
