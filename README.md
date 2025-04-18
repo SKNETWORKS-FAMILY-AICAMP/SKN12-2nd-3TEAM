@@ -59,7 +59,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 | `Partner` | 고객에게 배우자가 있는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
 | `Dependents` | 고객에게 부양 가족이 있는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
 | `tenure` | 고객이 회사에 가입한 개월 수를 나타냅니다. |🔢 정수형 (Integer)|
-| `PhoneService` | 고객이 전화 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)📝 문자열 (String)|
+| `PhoneService` | 고객이 전화 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
 | `MultipleLines` | 고객이 다중 회선을 이용하는지를 나타냅니다 (예/아니오/전화 서비스 없음). |📝 문자열 (String)|
 | `InternetService` | 고객이 이용 중인 인터넷 서비스의 종류를 나타냅니다 (DSL/광섬유/인터넷 서비스 없음). |📝 문자열 (String)|
 | `OnlineSecurity` | 고객이 온라인 보안 서비스를 이용하는지를 나타냅니다 (예/아니오). |📝 문자열 (String)|
