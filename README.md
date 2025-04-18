@@ -137,7 +137,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 <img src="https://github.com/user-attachments/assets/56c1a163-5664-4bfb-9697-377e6ccdaab9" width="850">   
 
-- 월 단위(Month-to-month) 계약 고객의 이탈률이 약 40%로 가장
+- 월 단위(Month-to-month) 계약 고객의 이탈률이 약 40%로 가장 높음음
 - 1년(One year) 계약 고객의 이탈률은 약 10%로 상대적으로 낮음
 - 2년(Two year) 계약 고객의 이탈률은 가장 낮음
 - 장기 계약 고객일수록 이탈 가능성이 낮아짐
